@@ -1,0 +1,11 @@
+[package]
+name = "computer_graphics_lab"
+version = "6.0.0"
+authors = ["zetanumbers <zeta0.114942@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { version = "0.2", features = ["canvas", "tokio"] }
+glam = "0.11"
